@@ -1,0 +1,15 @@
+id = "goose"
+name = "Goose"
+version = "0.0.1"
+schema_version = 1
+authors = ["Roman Prokopov <romanpro100@disroot.org>"]
+description = "Goose support."
+repository = "https://github.com/RomanPro100/goose-zed-extension"
+
+[grammars.goose]
+repository = "https://github.com/RomanPro100/goose-tree-sitter"
+rev = "a454449be0a8027cf517e701f9b2fff337157a69"
+
+[language_servers.goose-lsp]
+name = "Goose built-in LSP"
+languages = ["Goose"]
